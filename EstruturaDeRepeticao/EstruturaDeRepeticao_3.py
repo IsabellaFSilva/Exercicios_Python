@@ -20,3 +20,11 @@ while idade < 0 or idade > 150:
 salario = float(input("Insira um salário mair que zero: \n"))
 while salario < 0:
      salario = float(input("Insira um salário mair que zero: \n"))
+
+sexo = input("Insira um sexo: (f) ou (m) \n".upper())
+while sexo != "f" and sexo != "m" :
+    sexo = input("Insira um sexo: (f) ou (m) \n")
+    
+estCivil = input("Insira o estado civil: \n(s), (c), (v), (d)".upper())
+while estCivil != "s" and estCivil != "c" and estCivil != "v" and estCivil != "d":
+    estCivil = input("Insira o estado civil: \n(s), (c), (v), (d)\n")
