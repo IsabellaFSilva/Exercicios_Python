@@ -12,11 +12,11 @@ n2 = int(input("Insira a primeira nota: "))
 media = (n1 + n2) / 2
 
 if media >= 7 and media < 10:
-    print("Aprovado")
+    print("Aprovado\n")
 elif media >= 10:
-    print ("Aprovado com Distinção")
+    print ("Aprovado com Distinção\n")
 else:
-    print("Reprovado")
+    print("Reprovado\n")
 
 print ("Média de nota: ", media)
 
