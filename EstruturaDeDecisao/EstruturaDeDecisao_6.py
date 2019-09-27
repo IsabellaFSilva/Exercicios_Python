@@ -7,6 +7,16 @@ n1 = input("Insira o 1º número --->")
 n2 = input("Insira o 2º número --->")
 n3 = input("Insira o 3º número --->")
 
+maior = n1
+
+if maior < n2:
+	maior = n2
+if maior < n3: 
+	maior = n3
+
+print("O maior número inserido foi ", maior)
+
+"""
 if n1 > n2 and n1 > n3:
     print("O maior número inserido foi ",n1)
 elif n2 > n1 and n2 > n3:
@@ -19,3 +29,4 @@ elif n2 == n1 or n2 == n3:
     print("O maior número inserido foi ",n2)
 elif n3 == n1 or n3 == n2:
     print("O maior número inserido foi ",n1)
+"""
